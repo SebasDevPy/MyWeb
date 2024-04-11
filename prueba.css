@@ -1,0 +1,109 @@
+body {
+    margin-left: 2;
+    margin-right: 2; 
+}
+  
+.flex-container {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    
+    background-color: #b5b3b3;
+  }
+
+.inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    min-height: 10vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 1080px;
+}
+
+@media screen and (max-width: 1080px) {
+    body {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
+
+body.links {
+    background-color: #1E1E1E;
+    color: #D4D4D4;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: 500px;
+}
+
+p {
+    font-size: 1.25em;
+    text-align: justify;
+}
+
+h2, h3 {
+    font-weight: bold;
+}
+
+h2 {
+    font-style: italic;
+}
+
+
+.botonBase {
+    background-color: #d6cdc0; 
+    border: none;
+    color: white;
+    padding: 1em 2em; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em; 
+    cursor: pointer;
+    margin-left: 0.5em;
+}
+
+.miBoton {
+    margin: 0.50em 0.125em;
+}
+
+.miBoton2, .miBoton4 {
+    margin: 0.625em; 
+}
+
+.miBoton3, .miBoton4 {
+    margin-top: 0em; 
+    margin-bottom: 0em; 
+    float: right;
+}
+
+@media screen and (max-width: 1080px) {
+    h1, p {
+        font-size: 1em; 
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .botonBase {
+        padding: 0.75em 1.5em; 
+        font-size: 0.875em;
+    }
+}
