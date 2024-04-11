@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="prueba.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Comenzamos</title>
+</head>
+<body>
+    
+
+<div class="flex-container" style="background-color: #b5b3b3 ;">
+        <button class="botonBase miBoton"><a href="Contacto.html" target="_blank">Contacto</a></button>
+        <button class="botonBase miBoton2"><a href="Acercade.html" target="_blank">Acerca de</a></button>
+        <button class="botonBase miBoton2"><a href="Links.html" target="_blank">Links</a></button>
+        <button class="botonBase miBoton3"><a href="https://github.com/SebasDevPy" target="_blank"><i class="fab fa-github"></i></a></button>
+        <button class="botonBase miBoton4"><a href="Registrate.html" target="_blank">Registrate</a></button>
+    
+</div>
+<br>
+<br>
+<br>
+    <form id="myForm" style="display: flex; align-items: center;">
+        <select id="mySelect" style="margin-right: 20px;">
+            <option value="Links.html">Links</option>
+            <option value="Acercade.html">Acerca de</option>
+            <option value="index.html">Pagina principal</option>
+            <option value="Contacto.html">Contacto</option>
+        </select>
+        <input type="button" onclick="myFunction()" value="Ir a la página seleccionada">
+    </form>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("mySelect").value;
+            window.location.href = x;
+        }
+    </script>
+
+
+    <h1 style="text-align: center;"><b>Trabajemos con HTML</b></h1>
+    <br>
+    <div style="display: flex; justify-content: center;">
+        <img src="logo.jpg" alt="Descripción de la imagen" width="90%" height="500">
+    </div>
+    <p style="font-size:20px;"><b><i><h2>Introducción a HTML</h2></b></i></p>
+    <br>
+    <b><h3> ¿Qué es HTML?</h3></b>
+    <br>
+    <div style="background-color: #b5b3b3;">
+    <p style="text-align:justify;"> HTML, o Lenguaje de Marcas de Hipertexto, es el estándar para crear páginas web. Es un lenguaje de marcado, no un lenguaje de programación, lo que significa que se utiliza para estructurar y dar formato a los contenidos web, no para crear funcionalidades complejas. HTML utiliza etiquetas para definir elementos como encabezados, párrafos, enlaces e imágenes, y es la base de cualquier sitio web que ves en Internet.
+    En esta web aprenderás lo básico para formarte en estructura HTML a progresar para avanzar en tus estudios y a complacer tus gustos por la edición </p>
+    </div>
+    <br>
+    <br>
+    <b><h3> ¿Cómo funciona HTML?</h3></b>
+    <br>
+<div style="border: 1px solid black; padding: 10px;">
+    <p style="text-align: justify;"> 
+        <ul><li><b><a href="Estructura.html" target="_blank"> Estructura de la página</a></b>: HTML utiliza “etiquetas” para definir los elementos y la estructura de una página web. Cada etiqueta comienza con &lt; y termina con &gt;. Por ejemplo: &lt;html&gt;, &lt;head&gt;, &lt;body&gt;, &lt;div&gt;, &lt;p&gt;, etc.</ul></li>
+        <br>
+        <ul><li><b><a href="Contenido.html" target="_blank">Contenido</a></b>: El contenido se coloca entre las etiquetas de apertura y cierre. Por ejemplo, &lt;p&gt;Hola, mundo!&lt;/p&gt;.</ul></li>
+        <br>
+        <ul><li><b><a href="Atributos.html" target="_blank">Atributos</a></b>: Las etiquetas pueden tener atributos que proporcionan información adicional sobre el elemento. Por ejemplo, &lt;img src="imagen.jpg"&gt; donde src es un atributo que especifica la fuente de la imagen.</ul></li>
+        <br>
+        <ul><li><b><a href="Anidamiento.html" target="_blank">Anidamiento</a></b>: Las etiquetas pueden anidarse dentro de otras etiquetas para crear una estructura compleja. Por ejemplo, puedes tener un elemento de párrafo &lt;p&gt; dentro de un elemento de división &lt;div&gt;.</ul></li>
+        <br>
+        <ul><li><b><a href="https://developer.mozilla.org/es/play" target="_blank">Enlace a CSS y JavaScript</a></b>: HTML puede vincularse con hojas de estilo en cascada (CSS) para el estilo y diseño de la página, y con JavaScript para la funcionalidad interactiva.</ul></li>
+        <br>
+    </p>
+</div>
+    <br>
+    <br>
+    <b><h3> ¿Qué necesitamos para correr HTML?</h3></b>
+    <br>
+    <p style="text-align:justify;">Para poder utlizar HTML lo primero que debemos de hacer es descargar "VisualStudio Code", es gratuito y nos servira no solo para programar con HTML sino tambien con CSS, Python, JS, C+, etc. Podras acceder a la página desde este link <a href="https://code.visualstudio.com/" target="_blank">VisualStudio</a> o desde el boton "Links" en la parte superior donde además encontraras más información referida al tema.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+</body>
+</html>
